@@ -16,7 +16,7 @@
 
 – Je t'ai attribué ton propre garde du corps ! N'est-ce pas merveilleux ? Jusqu'à ce que tu accomplisses ton rôle de manière indépendante.
 
-*Stolas écarquilla les yeux, intrigué par cette soudaine révélation. Il se demandait pourquoi il aurait besoin d'un garde du corps et trouvait étrange qu'il s'agisse d'un prince comme lui. Ne sachant pas quoi dire, il regarda son père pour demander des explications.*
+*Stolas écarquilla les yeux, intrigué par cette soudaine révélation. Il se demandait pourquoi il aurait besoin d'un garde du corps et trouvait cela étrange qu'il s'agisse d'un prince comme lui. Ne sachant pas quoi dire, il regarda son père pour demander des explications.*
 
 – Je te présente Rask Zokari, un ancien ami venu me rendre visite lors de leurs excursions... C'est l'une des lignées les plus puissantes pour leurs gardes du corps ! J'en ai profité pour faire un pacte qu'il a gracieusement accepté ! Comme ça, tu ne seras plus tout seul !
 
