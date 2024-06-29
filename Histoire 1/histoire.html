@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histoire 1 - Mes Histoires</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="histoire.css"> <!-- Fichier CSS pour les pages d'histoires -->
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">OwlStory</h1>
+        <button onclick="location.href='index.html'" class="styled-button">Revenir à l'accueil</button>
+    </header>
+    <main>
+        <img class="illustration" src="/Images/Histoire 1.png" alt="Illustration de l'histoire" style="display: block; margin: 0 auto">
+        <article id="content">
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 OwlStory par FurekoEreki</p>
+    </footer>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('Histoire1.md')
+                .then(response => response.text())
+                .then(text => {
+                    var converter = new showdown.Converter();
+                    var htmlContent = converter.makeHtml(text);
+                    document.getElementById('content').innerHTML = htmlContent;
+                });
+        });
+    </script>
+</body>
+</html>

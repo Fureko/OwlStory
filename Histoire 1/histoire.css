@@ -1,0 +1,136 @@
+body {
+    background-color: #070F2B; /* Fond très foncé */
+    color: #9290C3; /* Couleur claire pour le texte */
+    font-family: 'Itim', cursive; /* Police pour le corps du texte */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1B1A55; /* Fond foncé de l'en-tête */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Lumanosimo', sans-serif; /* Police pour les gros titres */
+    color: #FFFFFF; /* Couleur intermédiaire pour les titres */
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 60px;
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1B1A55; /* Fond foncé du pied de page */
+    color: #9290C3; /* Couleur claire pour le texte du pied de page */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+button {
+    background-color: #535C91; /* Couleur intermédiaire pour le bouton */
+    color: #070F2B; /* Texte du bouton */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #1B1A55; /* Fond foncé au survol */
+    transform: scale(1.1); /* Agrandir légèrement */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ajouter une ombre */
+}
+
+button:active {
+    transform: scale(1.05); /* Réduire légèrement lors du clic */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Diminuer l'ombre */
+}
+
+img.illustration {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+blockquote {
+    background-color: #1B1A55; /* Fond des citations */
+    color: #9290C3; /* Couleur du texte des citations */
+    border-left: 5px solid #535C91;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-style: italic;
+}
+
+nav.story-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+nav.story-nav button {
+    background-color: #535C91;
+    color: #070F2B;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.story-nav button:hover {
+    background-color: #1B1A55;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav.story-nav button:active {
+    transform: scale(1.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.styled-button {
+    font-family: 'Lumanosimo', cursive; /* Exemple de police de caractères */
+    font-size: 16px; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    color: #ffffff; /* Couleur du texte */
+    background-color: #3282B8; /* Couleur de fond */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Animation de transition */
+}
+
+.styled-button:hover {
+    background-color: #9290C3; /* Couleur de fond au survol */
+    transform: scale(1.1); /* Agrandissement au survol */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre portée */
+}
+
+.styled-button:active {
+    transform: scale(1.05); /* Réduction lors du clic */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Ombre portée lors du clic */
+}
+
+#content {
+    background-color: #0C134F; /* Fond blanc */
+    border-radius: 20px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 800px; /* Largeur maximale du cadre */
+    margin: 20px auto; /* Centrage horizontal et espacement extérieur */
+    text-align: jutify; /* Justification du texte à l'intérieur du cadre */
+    color: #99AEF9; /* Couleur du texte */
+    font-family: Itim;
+}
